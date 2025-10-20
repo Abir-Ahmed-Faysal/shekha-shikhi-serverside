@@ -8,7 +8,7 @@ interface GradeParams {
 export interface GradePayload {
   grade: number;
   title: string;
-  subjects: {
+  subjects?: {
     subjectId: string;
     name: string;
   }[];
@@ -74,29 +74,47 @@ export const getGradeByValue = async (
   }
 };
 
+
 /* ============================================
     POST NEW GRADE
    ============================================ */
 export const postGrade = async (
-  req: Request<{}, {}, { payload: GradePayload }>,
+  req: Request<{}, {},  GradePayload >,
   res: Response,
   next: NextFunction
 ) => {
   try {
-    const { payload } = req.body;
+    const  payload  = req.body;
+    if(payload.subjects){
+      const checkType= Array.isArray(payload.subjects)
+      if(!checkType)return res.status(400).json({
+        success: false,
+        message:
+          "Invalid payload: grade must be a number, title must be a string, and subjects must be an array.",
+        data: null, 
+      });
+    }
 
     if (
       !payload ||
       typeof payload.grade !== "number" ||
-      typeof payload.title !== "string" ||
-      !Array.isArray(payload.subjects)
+      typeof payload.title !== "string" 
+     
     ) {
       return res.status(400).json({
-        // ✅ Order: 1️⃣ success → 2️⃣ message → 3️⃣ data
         success: false,
         message:
-          "Invalid payload: grade must be a number, title must be a string, and subjects must be an array.",
-        data: null, // 🔧 added for consistency
+          "Invalid payload: grade must be a number, title must be a string.",
+        data: null, 
+      });
+    }
+
+
+   if (payload.subjects !== undefined && !Array.isArray(payload.subjects)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid payload: subjects must be an array if provided.",
+        data: null,
       });
     }
 
@@ -105,39 +123,12 @@ export const postGrade = async (
     const data = await Grade.create(payload);
 
     return res.status(201).json({
-      // ✅ same order
       success: true,
       message: "Grade created successfully",
       data,
     });
   } catch (error) {
-    next(error); // handled by global error middleware
+    next(error); 
   }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
