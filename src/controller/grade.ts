@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import Grades from "../models/gradeModels";
+import Grade from "../models/gradeModels";
 
 interface GradeParams {
   grade: string;
@@ -19,7 +19,7 @@ export interface GradePayload {
    ============================================ */
 export const getAllGrades = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const grades = await Grades.find();
+    const grades = await Grade.find();
 
     if (grades.length === 0) {
       return res.status(404).json({
@@ -41,7 +41,6 @@ export const getAllGrades = async (req: Request, res: Response, next: NextFuncti
   }
 };
 
-
 /* ============================================
    GET GRADE BY VALUE
    ============================================ */
@@ -53,7 +52,7 @@ export const getGradeByValue = async (
   try {
     const { grade } = req.params;
 
-    const gradeData = await Grades.findOne({ grade });
+    const gradeData = await Grade.findOne({ grade });
 
     if (!gradeData) {
       return res.status(404).json({
@@ -103,7 +102,7 @@ export const postGrade = async (
 
     payload.title = payload.title.trim();
 
-    const data = await Grades.create(payload);
+    const data = await Grade.create(payload);
 
     return res.status(201).json({
       // ✅ same order
@@ -115,3 +114,30 @@ export const postGrade = async (
     next(error); // handled by global error middleware
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
