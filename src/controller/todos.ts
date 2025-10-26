@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import Todo from "../models/todoModels";
+import Todo from "../models/todoModel";
 
 const getTodos = async (req: Request, res: Response, next: NextFunction) => {
 
@@ -7,7 +7,7 @@ const getTodos = async (req: Request, res: Response, next: NextFunction) => {
 
         const todos = await Todo.find();
         res.status(200).json({ data:todos, message: 'successful todo finding', status: 200 });
-        console.log(todos);
+    
 
     } catch (error) {
         next(error);

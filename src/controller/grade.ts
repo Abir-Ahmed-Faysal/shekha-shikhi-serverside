@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import Grade from "../models/gradeModels";
+import Grade from "../models/gradeModel";
 
 interface GradeParams {
   grade: string;
@@ -8,32 +8,27 @@ interface GradeParams {
 export interface GradePayload {
   grade: number;
   title: string;
-  subjects?: {
-    subjectId: string;
-    name: string;
-  }[];
 }
 
-/* ============================================
+
+/* =========================
    GET ALL GRADES
-   ============================================ */
+   ========================= */
 export const getAllGrades = async (req: Request, res: Response, next: NextFunction) => {
+
   try {
     const grades = await Grade.find();
-
     if (grades.length === 0) {
       return res.status(404).json({
-       
         success: false,
-        message: "No grades found",
-        data: null,
+        message: "কোনো Grade পাওয়া যায়নি।",
+        data:null
       });
     }
 
-    return res.status(200).json({
-      
+    res.status(200).json({
       success: true,
-      message: "Grades fetched successfully",
+      message: "সব Grade সফলভাবে পাওয়া গেছে।",
       data: grades,
     });
   } catch (error) {
@@ -41,9 +36,10 @@ export const getAllGrades = async (req: Request, res: Response, next: NextFuncti
   }
 };
 
-/* ============================================
+
+/* =========================
    GET GRADE BY VALUE
-   ============================================ */
+   ========================= */
 export const getGradeByValue = async (
   req: Request<GradeParams>,
   res: Response,
@@ -51,23 +47,20 @@ export const getGradeByValue = async (
 ) => {
   try {
     const { grade } = req.params;
+    const gradeDoc = await Grade.findOne({ grade: Number(grade) });
 
-    const gradeData = await Grade.findOne({ grade });
 
-    if (!gradeData) {
+    if (!gradeDoc) {
       return res.status(404).json({
-        // ✅ Order: 1️⃣ success → 2️⃣ message → 3️⃣ data
         success: false,
-        message: "No grade found with this value",
-        data: null,
+        message: `Grade ${grade} পাওয়া যায়নি।`,
       });
     }
 
-    return res.status(200).json({
-      // ✅ same order
+    res.status(200).json({
       success: true,
-      message: "Grade fetched successfully",
-      data: gradeData,
+      message: "Grade সফলভাবে পাওয়া গেছে।",
+      data: gradeDoc,
     });
   } catch (error) {
     next(error);
@@ -75,60 +68,44 @@ export const getGradeByValue = async (
 };
 
 
-/* ============================================
-    POST NEW GRADE
-   ============================================ */
+/* =========================
+   CREATE GRADE
+   ========================= */
 export const postGrade = async (
-  req: Request<{}, {},  GradePayload >,
+  req: Request<{}, {}, GradePayload>,
   res: Response,
   next: NextFunction
 ) => {
   try {
-    const  payload  = req.body;
-    if(payload.subjects){
-      const checkType= Array.isArray(payload.subjects)
-      if(!checkType)return res.status(400).json({
-        success: false,
-        message:
-          "Invalid payload: grade must be a number, title must be a string, and subjects must be an array.",
-        data: null, 
-      });
-    }
+    const { grade, title } = req.body;
 
-    if (
-      !payload ||
-      typeof payload.grade !== "number" ||
-      typeof payload.title !== "string" 
-     
-    ) {
+    if (typeof grade !== "number" || !title?.trim()) {
       return res.status(400).json({
         success: false,
-        message:
-          "Invalid payload: grade must be a number, title must be a string.",
-        data: null, 
+        message: "Invalid payload. grade অবশ্যই সংখ্যা, title অবশ্যই স্ট্রিং হতে হবে।",
       });
     }
 
-
-   if (payload.subjects !== undefined && !Array.isArray(payload.subjects)) {
-      return res.status(400).json({
+    const exists = await Grade.findOne({ grade });
+    if (exists) {
+      return res.status(409).json({
         success: false,
-        message: "Invalid payload: subjects must be an array if provided.",
-        data: null,
+        message: `Grade ${grade} আগেই আছে।`,
       });
     }
 
-    payload.title = payload.title.trim();
+    const newGrade = await Grade.create({
+      grade,
+      title: title.trim(),
+      subjects: [],
+    });
 
-    const data = await Grade.create(payload);
-
-    return res.status(201).json({
+    res.status(201).json({
       success: true,
-      message: "Grade created successfully",
-      data,
+      message: "Grade সফলভাবে তৈরি হয়েছে।",
+      data: newGrade,
     });
   } catch (error) {
-    next(error); 
+    next(error);
   }
 };
-

@@ -1,67 +1,38 @@
-import { Schema, model, Document } from "mongoose";
+import { Schema, model, Document, Types } from "mongoose";
 
-export interface IQuestion {
-  _id?: string;
-  type: "mcq" | "short" | "long";
-  question: string;
-  options?: string[];
-  correct?: string | number | string[];
-  answer?: string;
-  tags?: string[];
-  meta?: { difficulty?: string; marks?: number };
-}
-
-export interface IChapter {
-  _id?: string;
+interface ISubjectChapter {
+  chapterId: Types.ObjectId; 
   title: string;
-  description?: string;
-  questions: IQuestion[];
 }
 
 export interface ISubject extends Document {
   name: string;
-  grade: number;
-  chapters: IChapter[];
+  grade: Types.ObjectId;
+  chapters: ISubjectChapter[];
 }
 
-const questionSchema = new Schema<IQuestion>(
+const subjectChapterSchema = new Schema<ISubjectChapter>(
   {
-    type: { type: String, enum: ["mcq", "short", "long"], required: true },
-    question: { type: String, required: true },
-    options: [String],
-    correct: Schema.Types.Mixed,
-    answer: String,
-    tags: [String],
-    meta: {
-      difficulty: String,
-      marks: Number,
+    chapterId: {
+      type: Schema.Types.ObjectId,
+      ref: "Chapter",
+      required: [true, "chapterId অবশ্যই দিতে হবে"],
     },
+    title: { type: String, required: [true, "chapter title দিতে হবে"] },
   },
-  { _id: true }
+  { _id: false }
 );
-
-
-
-const chapterSchema = new Schema<IChapter>(
-  {
-    title: { type: String, required: true },
-    description: String,
-    questions: [questionSchema],
-  },
-  { _id: true }
-);
-
-
 
 const subjectSchema = new Schema<ISubject>(
   {
     name: { type: String, required: true, trim: true },
-    grade: { type: Number, required: true },
-    chapters: [chapterSchema],
+    grade: { type: Schema.Types.ObjectId, ref: "Grade", required: true },
+    chapters: { type: [subjectChapterSchema], default: [] },
   },
   { timestamps: true }
 );
 
-
+// প্রতিটি গ্রেডে একই নামের subject যেন না হয়
+subjectSchema.index({ name: 1, grade: 1 }, { unique: true });
 
 export default model<ISubject>("Subject", subjectSchema);

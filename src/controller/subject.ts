@@ -1,114 +1,185 @@
-import { NextFunction, Request, Response } from "express";
-
-interface iQuestionPayload {
-  _id?: string;
-  type: "mcq" | "short" | "long";
-  question: string;
-  options?: string[];
-  correct?: string | number | string[];
-  answer?: string;
-  tags?: string[];
-  meta?: { difficulty?: string; marks?: number };
-}
-
-interface iChaptersPayload {
-  _id?: string;
-  title: string;
-  description?: string;
-  questions: iQuestionPayload[];
-}
+import { Request, Response, NextFunction } from "express";
+import mongoose from "mongoose";
+import Subject from "../models/subjectModel";
+import Grade from "../models/gradeModel";
 
 interface ISubjectPayload {
   name: string;
   grade: number;
-  chapters: iChaptersPayload[];
+  chapters?: string[];
 }
 
-// ============================
-//  Controller: Create Subject
-// ============================
+interface GradeParam {
+  grade: string;
+}
 
+interface SubjectParam {
+  id: string;
+}
 
-export const subjectCreate = async (
+/* =========================
+   ১️⃣ Create Subject (Single)
+   ========================= */
+export const createSubject = async (
   req: Request<{}, {}, ISubjectPayload>,
   res: Response,
   next: NextFunction
 ) => {
+
+
+  const session = await mongoose.startSession();
   try {
-    const payload = req.body;
+    const { name, grade, chapters = [] } = req.body;
+
+    if (!name?.trim() || typeof grade !== "number") {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid payload. 'name' এবং 'grade' লাগবে।",
+      });
+    }
+
+    const trimmedName = name.trim();
+
+    //  গ্রেড আগে খুঁজে বের করো
+    const gradeDoc = await Grade.findOne({ grade });
+    if (!gradeDoc) {
+      return res.status(404).json({
+        success: false,
+        message: `Grade ${grade} পাওয়া যায়নি।`,
+      });
+    }
+
+    session.startTransaction();
+
+    //  ডুপ্লিকেট সাবজেক্ট চেক করো
+    const existing = await Subject.findOne({
+      name: trimmedName,
+      grade: gradeDoc._id,
+    }).session(session);
+
+    if (existing) {
+      await session.abortTransaction();
+      return res.status(409).json({
+        success: false,
+        message: `Subject "${trimmedName}" আগেই আছে grade ${grade}-এ।`,
+      });
+    }
+
+    //  সাবজেক্ট তৈরি করো
+    const createdSubject = new Subject({
+      name: trimmedName,
+      grade: gradeDoc._id,
+      chapters,
+    });
+    await createdSubject.save({ session });
+
+    //  Grade এ subject যোগ করো
+  gradeDoc.subjects.push({
+  subjectId: createdSubject._id as mongoose.Types.ObjectId,
+  name: createdSubject.name,
+});
+    await gradeDoc.save({ session });
+
+    await session.commitTransaction();
+
+    return res.status(201).json({
+      success: true,
+      message: `Subject "${createdSubject.name}" তৈরি হয়েছে grade ${gradeDoc.title}-এ।`,
+      data: createdSubject,
+    });
+  } catch (error) {
+    await session.abortTransaction();
+    next(error);
+  } finally {
+    session.endSession();
+  }
+};
+
+/* =========================
+   ২️⃣ Get Subjects by Grade
+   ========================= */
+export const getSubjectsByGrade = async (
+  req: Request<GradeParam>,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const { grade } = req.params;
 
    
-    if (!payload) {
+
+    if (typeof grade !=="string") {
       return res.status(400).json({
         success: false,
-        message: "Payload must exist",
-        data: null,
-      });
-    }
-    if (
-      typeof payload.name !== "string" ||
-      typeof payload.grade !== "number" ||
-      !Array.isArray(payload.chapters)
-    ) {
-      return res.status(400).json({
-        success: false,
-        message:
-          "Invalid payload: 'name' must be string, 'grade' must be number, and 'chapters' must be an array.",
-        data: null,
-      });
-    }
-    
-    if (payload.chapters.length === 0) {
-      return res.status(400).json({
-        success: false,
-        message: "Chapters array cannot be empty.",
-        data: null,
+        message: "Grade প্যারামিটারটি সঠিক সংখ্যা নয়।",
       });
     }
 
-    // 🧩 4. Validate each chapter
-    for (const chapter of payload.chapters) {
-      if (typeof chapter.title !== "string") {
-        return res.status(400).json({
-          success: false,
-          message: "Each chapter must have a valid 'title' (string).",
-          data: null,
-        });
-      }
+    const gradeDoc = await Grade.findOne({_id:  grade }).populate({
+      path: "subjects.subjectId",
+      select: "name chapters",
+      populate: { path: "chapters", select: "title" },
+    });
 
-      if (!Array.isArray(chapter.questions)) {
-        return res.status(400).json({
-          success: false,
-          message: "Each chapter must include a 'questions' array.",
-          data: null,
-        });
-      }
-
-      // 🧩 5. Validate each question
-      for (const question of chapter.questions) {
-        if (typeof question.type !== "string" || typeof question.question !== "string") {
-          return res.status(400).json({
-            success: false,
-            message:
-              "Each question must include a valid 'type' and 'question' field.",
-            data: null,
-          });
-        }
-      }
+    if (!gradeDoc) {
+      return res.status(404).json({
+        success: false,
+        message: `Grade ${grade} পাওয়া যায়নি।`,
+      });
     }
 
-    // ✅ 6. Now you can safely create subject in DB
-    // const data = await Subject.create(payload);
-    // return res.status(201).json({
-    //   success: true,
-    //   message: "Subject created successfully",
-    //   data,
-    // });
-
- 
-
-
+    return res.status(200).json({
+      success: true,
+      message: `Grade ${gradeDoc.title}-এর subject লিস্ট পাওয়া গেছে।`,
+      data: gradeDoc.subjects,
+    });
   } catch (error) {
     next(error);
+  }
+};
+
+/* =========================
+   ৩️⃣ Delete Subject (with transaction)
+   ========================= */
+export const deleteSubject = async (
+  req: Request<SubjectParam>,
+  res: Response,
+  next: NextFunction
+) => {
+  const session = await mongoose.startSession();
+  try {
+    const { id } = req.params;
+    session.startTransaction();
+
+    const subjectDoc = await Subject.findById(id).session(session);
+    if (!subjectDoc) {
+      await session.abortTransaction();
+      return res.status(404).json({
+        success: false,
+        message: "Subject পাওয়া যায়নি।",
+      });
+    }
+
+    //  Grade থেকে subject সরাও
+    await Grade.updateOne(
+      { _id: subjectDoc.grade },
+      { $pull: { subjects: { subjectId: subjectDoc._id } } },
+      { session }
+    );
+
+    //  Subject মুছে ফেলো
+    await Subject.deleteOne({ _id: subjectDoc._id }, { session });
+
+    await session.commitTransaction();
+
+    return res.status(200).json({
+      success: true,
+      message: `Subject "${subjectDoc.name}" সফলভাবে মুছে ফেলা হয়েছে।`,
+    });
+  } catch (error) {
+    await session.abortTransaction();
+    next(error);
+  } finally {
+    session.endSession();
   }
 };

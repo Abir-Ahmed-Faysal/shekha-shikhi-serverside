@@ -1,0 +1,2312 @@
+[
+  {
+    "grade": 1,
+    "question": "আমার সাইকেল লম্বা।",
+    "answer": "My bicycle is tall."
+  },
+  {
+    "grade": 1,
+    "question": "আমার কলেজ লাল।",
+    "answer": "My college is red."
+  },
+  {
+    "grade": 1,
+    "question": "তুমি দৌড়াচ্ছ।",
+    "answer": "You are running."
+  },
+  {
+    "grade": 1,
+    "question": "তুমি পড়ছ।",
+    "answer": "You are reading."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা বসে আছি।",
+    "answer": "We are sitting."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা হাঁটছি।",
+    "answer": "We are walking."
+  },
+  {
+    "grade": 1,
+    "question": "সে (মেয়ে) ঘুমাচ্ছে।",
+    "answer": "She is sleeping."
+  },
+  {
+    "grade": 1,
+    "question": "সে (ছেলে) দৌড়াচ্ছে।",
+    "answer": "He is running."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা পড়ছি।",
+    "answer": "We are reading."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা গাইছি।",
+    "answer": "We are singing."
+  },
+  {
+    "grade": 1,
+    "question": "তারা গাইছি।",
+    "answer": "They are singing."
+  },
+  {
+    "grade": 1,
+    "question": "তারা শিখছি।",
+    "answer": "They are learning."
+  },
+  {
+    "grade": 1,
+    "question": "তারা খাচ্ছি।",
+    "answer": "They are eating."
+  },
+  {
+    "grade": 3,
+    "question": "তারা দেখছে।",
+    "answer": "They are watching."
+  },
+  {
+    "grade": 1,
+    "question": "তারা বসছে।",
+    "answer": "They are sitting."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা দেখছি।",
+    "answer": "We are watching."
+  },
+  {
+    "grade": 3,
+    "question": "তারা খেলছে।",
+    "answer": "They are playing."
+  },
+  {
+    "grade": 5,
+    "question": "তারা লিখছে।",
+    "answer": "They are writing."
+  },
+  {
+    "grade": 1,
+    "question": "তারা দাঁড়িয়ে আছি।",
+    "answer": "They are standing."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা ঘুমাচ্ছি।",
+    "answer": "We are sleeping."
+  },
+  {
+    "grade": 1,
+    "question": "তারা দৌড়াচ্ছে।",
+    "answer": "They are running."
+  },
+  {
+    "grade": 1,
+    "question": "আমি দৌড়াচ্ছি।",
+    "answer": "I am running."
+  },
+  {
+    "grade": 1,
+    "question": "আমি হাসছি।",
+    "answer": "I am smiling."
+  },
+  {
+    "grade": 1,
+    "question": "আপনি বসে আছেন।",
+    "answer": "You are sitting."
+  },
+  {
+    "grade": 1,
+    "question": "আপনি হাসছেন।",
+    "answer": "You are smiling."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা দাঁড়িয়ে আছি।",
+    "answer": "We are standing."
+  },
+  {
+    "grade": 1,
+    "question": "তারা হাঁটছি।",
+    "answer": "They are walking."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা খেলছি।",
+    "answer": "We are playing."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা লিখছি।",
+    "answer": "We are writing."
+  },
+  {
+    "grade": 1,
+    "question": "সে (ছেলে) হাসছে।",
+    "answer": "He is laughing."
+  },
+  {
+    "grade": 1,
+    "question": "সে পড়ছে।",
+    "answer": "He is reading."
+  },
+  {
+    "grade": 1,
+    "question": "তারা পড়ছে।",
+    "answer": "They are reading."
+  },
+  {
+    "grade": 1,
+    "question": "তারা ঘুমাচ্ছে।",
+    "answer": "They are sleeping."
+  },
+  {
+    "grade": 1,
+    "question": "আমি খাচ্ছি।",
+    "answer": "I am eating."
+  },
+  {
+    "grade": 1,
+    "question": "তুমি দেখছ।",
+    "answer": "You are seeing."
+  },
+  {
+    "grade": 1,
+    "question": "আমি হাসছি।",
+    "answer": "I am laughing."
+  },
+  {
+    "grade": 1,
+    "question": "আমি পড়ছি।",
+    "answer": "I am reading."
+  },
+  {
+    "grade": 1,
+    "question": "তুমি খাচ্ছো।",
+    "answer": "You are eating."
+  },
+  {
+    "grade": 1,
+    "question": "ওটা নীল।",
+    "answer": "That is blue."
+  },
+  {
+    "grade": 1,
+    "question": "এটা লাল।",
+    "answer": "This is red."
+  },
+  {
+    "grade": 1,
+    "question": "আমার গাড়ি লাল।",
+    "answer": "My car is red."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বাড়ি বড়।",
+    "answer": "My house is big."
+  },
+  {
+    "grade": 1,
+    "question": "এটা কালো।",
+    "answer": "It is black."
+  },
+  {
+    "grade": 1,
+    "question": "এটা সাদা।",
+    "answer": "It is white."
+  },
+  {
+    "grade": 1,
+    "question": "আমার সাইকেল নীল।",
+    "answer": "My bicycle is blue."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বই লাল।",
+    "answer": "My book is red."
+  },
+  {
+    "grade": 1,
+    "question": "আমার কলম কালো।",
+    "answer": "My pen is black."
+  },
+  {
+    "grade": 2,
+    "question": "আমার বাবা লম্বা।",
+    "answer": "My father is tall."
+  },
+  {
+    "grade": 2,
+    "question": "আমার মা ছোট।",
+    "answer": "My mother is short."
+  },
+  {
+    "grade": 1,
+    "question": "আমার ভাই খারাপ।",
+    "answer": "My brother is bad."
+  },
+  {
+    "grade": 2,
+    "question": "আমার বোন সুন্দর।",
+    "answer": "My sister is beautiful."
+  },
+  {
+    "grade": 1,
+    "question": "তুমি ভালো।",
+    "answer": "You are good."
+  },
+  {
+    "grade": 2,
+    "question": "আমি লম্বা।",
+    "answer": "I am tall."
+  },
+  {
+    "grade": 2,
+    "question": "আমি একটি আপেল খাচ্ছি।",
+    "answer": "I am eating an apple."
+  },
+  {
+    "grade": 2,
+    "question": "তুমি একটি আম খাচ্ছ।",
+    "answer": "You are eating a mango."
+  },
+  {
+    "grade": 2,
+    "question": "সে (ছেলে) একটি কলা খাচ্ছে।",
+    "answer": "He is eating a banana."
+  },
+  {
+    "grade": 2,
+    "question": "সে (মেয়ে) একটি কেক খাচ্ছে।",
+    "answer": "She is eating a cake."
+  },
+  {
+    "grade": 2,
+    "question": "আমরা একটি চকোলেট খাচ্ছি।",
+    "answer": "We are eating a chocolate."
+  },
+  {
+    "grade": 2,
+    "question": "তারা একটি কুকুর খাচ্ছে।",
+    "answer": "They are eating a dog."
+  },
+  {
+    "grade": 2,
+    "question": "আমি একটি বিড়াল খাচ্ছি।",
+    "answer": "I am feeding a cat."
+  },
+  {
+    "grade": 2,
+    "question": "তুমি একটি বল খাচ্ছ।",
+    "answer": "You are eating a ball."
+  },
+  {
+    "grade": 2,
+    "question": "সে একটি কবুতর খাচ্ছে।",
+    "answer": "He is feeding a pigeon."
+  },
+  {
+    "grade": 2,
+    "question": "সে একটি মুরগী খাচ্ছে।",
+    "answer": "She is feeding a chicken."
+  },
+  {
+    "grade": 2,
+    "question": "আমরা একটি বই পড়ছি।",
+    "answer": "We are reading a book."
+  },
+  {
+    "grade": 2,
+    "question": "তারা একটি কলম নিয়ে পড়ছে।",
+    "answer": "They are reading with a pen."
+  },
+  {
+    "grade": 2,
+    "question": "আমি একটি বাস বই পড়ছি।",
+    "answer": "I am reading a bus book."
+  },
+  {
+    "grade": 2,
+    "question": "তুমি একটি ডিজাইন পড়ছ।",
+    "answer": "You are reading a design."
+  },
+  {
+    "grade": 2,
+    "question": "সে একটি খেলনা নিয়ে পড়ছে।",
+    "answer": "He is reading with a toy."
+  },
+  {
+    "grade": 2,
+    "question": "আমি একটি গাছের বই পড়ছি।",
+    "answer": "I am reading a tree book."
+  },
+  {
+    "grade": 2,
+    "question": "আমরা একটি গোলাপ পড়ছি।",
+    "answer": "We are reading a rose."
+  },
+  {
+    "grade": 2,
+    "question": "তারা একটি চকলেট নিয়ে পড়ছে।",
+    "answer": "They are reading with a chocolate."
+  },
+  {
+    "grade": 2,
+    "question": "সে একটি ছাতা নিয়ে পড়ছে।",
+    "answer": "She is reading with an umbrella."
+  },
+  {
+    "grade": 2,
+    "question": "তুমি ছোট।",
+    "answer": "You are short."
+  },
+  {
+    "grade": 2,
+    "question": "সে (ছেলে) সুন্দর।",
+    "answer": "He is beautiful."
+  },
+  {
+    "grade": 2,
+    "question": "সে (মেয়ে) ভালো।",
+    "answer": "She is good."
+  },
+  {
+    "grade": 2,
+    "question": "আমরা ভালো।",
+    "answer": "We are good."
+  },
+  {
+    "grade": 2,
+    "question": "তারা সুন্দর।",
+    "answer": "They are beautiful."
+  },
+  {
+    "grade": 2,
+    "question": "আমার ভাই ভালো।",
+    "answer": "My brother is good."
+  },
+  {
+    "grade": 2,
+    "question": "ওটা কি তোমার বই?",
+    "answer": "Is that your book?"
+  },
+  {
+    "grade": 2,
+    "question": "আজ কি গরম?",
+    "answer": "Is it hot today?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কি ক্ষুধার্ত?",
+    "answer": "Are you hungry?"
+  },
+  {
+    "grade": 2,
+    "question": "সে কি ঘুমাচ্ছে?",
+    "answer": "Is he sleeping?"
+  },
+  {
+    "grade": 2,
+    "question": "আমরা কি খেলছি?",
+    "answer": "Are we playing?"
+  },
+  {
+    "grade": 2,
+    "question": "তারা কি পড়ছে?",
+    "answer": "Are they reading?"
+  },
+  {
+    "grade": 5,
+    "question": "সে কি আসছে?",
+    "answer": "Is she coming?"
+  },
+  {
+    "grade": 2,
+    "question": "আমরা কি খাচ্ছি?",
+    "answer": "Are we eating?"
+  },
+  {
+    "grade": 2,
+    "question": "তারা কি দৌড়াচ্ছে?",
+    "answer": "Are they running?"
+  },
+  {
+    "grade": 2,
+    "question": "আপনি কি হাসছেন?",
+    "answer": "Are you smiling?"
+  },
+  {
+    "grade": 2,
+    "question": "আমি কি দৌড়াচ্ছি?",
+    "answer": "Am I running?"
+  },
+  {
+    "grade": 2,
+    "question": "সে (ছেলে) কি গাইছে?",
+    "answer": "Is he singing?"
+  },
+  {
+    "grade": 2,
+    "question": "সে (মেয়ে) কি লিখছে?",
+    "answer": "Is she writing?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কি দাড়িয়ে আছো?",
+    "answer": "Are you standing?"
+  },
+  {
+    "grade": 2,
+    "question": "আমরা কি গাইছি?",
+    "answer": "Are we singing?"
+  },
+  {
+    "grade": 2,
+    "question": "তারা কি বসে আছে?",
+    "answer": "Are they sitting?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কি বই পড়ছ?",
+    "answer": "Are you reading a book?"
+  },
+  {
+    "grade": 3,
+    "question": "আমার বাবা পড়ছে।",
+    "answer": "My father is reading."
+  },
+  {
+    "grade": 3,
+    "question": "আমার মা খাচ্ছেন।",
+    "answer": "My mother is eating."
+  },
+  {
+    "grade": 3,
+    "question": "আমার ভাই গাইছে।",
+    "answer": "My brother is singing."
+  },
+  {
+    "grade": 3,
+    "question": "আমার বোন দৌড়াচ্ছে।",
+    "answer": "My sister is running."
+  },
+  {
+    "grade": 3,
+    "question": "আমরা পড়ছি।",
+    "answer": "We are studying."
+  },
+  {
+    "grade": 3,
+    "question": "সে গান গাইছে।",
+    "answer": "He is singing."
+  },
+  {
+    "grade": 3,
+    "question": "সে নাচছে।",
+    "answer": "She is dancing."
+  },
+  {
+    "grade": 3,
+    "question": "আমরা শিখছি।",
+    "answer": "We are learning."
+  },
+  {
+    "grade": 3,
+    "question": "আপনার ভাই বসে আছেন।",
+    "answer": "Your brother is sitting."
+  },
+  {
+    "grade": 3,
+    "question": "আপনার বোন ঘুমাচ্ছেন।",
+    "answer": "Your sister is sleeping."
+  },
+  {
+    "grade": 3,
+    "question": "সে ক্রিকেট খেলছে।",
+    "answer": "He is playing cricket."
+  },
+  {
+    "grade": 3,
+    "question": "সে ফুটবল খেলছে।",
+    "answer": "She is playing football."
+  },
+  {
+    "grade": 3,
+    "question": "আমরা মিঠাই খেলছি।",
+    "answer": "We are eating sweets."
+  },
+  {
+    "grade": 4,
+    "question": "তারা স্কুলে যাচ্ছে।",
+    "answer": "They are going to school."
+  },
+  {
+    "grade": 3,
+    "question": "আমি স্কুলে যাচ্ছি।",
+    "answer": "I am going to school."
+  },
+  {
+    "grade": 4,
+    "question": "She is asking a question!",
+    "answer": "She is asking a question!"
+  },
+  {
+    "grade": 4,
+    "question": "What a fun game!",
+    "answer": "What a fun game!"
+  },
+  {
+    "grade": 4,
+    "question": "How wonderful!",
+    "answer": "How wonderful!"
+  },
+  {
+    "grade": 4,
+    "question": "I am reading now!",
+    "answer": "I am reading now!"
+  },
+  {
+    "grade": 4,
+    "question": "He won the match!",
+    "answer": "He won the match!"
+  },
+  {
+    "grade": 4,
+    "question": "Fantastic weather today!",
+    "answer": "Fantastic weather today!"
+  },
+  {
+    "grade": 4,
+    "question": "She is dancing beautifully!",
+    "answer": "She is dancing beautifully!"
+  },
+  {
+    "grade": 4,
+    "question": "What a great achievement!",
+    "answer": "What a great achievement!"
+  },
+  {
+    "grade": 4,
+    "question": "Amazing!",
+    "answer": "Amazing!"
+  },
+  {
+    "grade": 4,
+    "question": "He scored a goal!",
+    "answer": "He scored a goal!"
+  },
+  {
+    "grade": 5,
+    "question": "সে একজন ডাক্তার।",
+    "answer": "He is a doctor."
+  },
+  {
+    "grade": 4,
+    "question": "সে একজন শিক্ষক।",
+    "answer": "She is a teacher."
+  },
+  {
+    "grade": 4,
+    "question": "সে একজন কৃষক।",
+    "answer": "He is a farmer."
+  },
+  {
+    "grade": 4,
+    "question": "সে একজন গায়ক।",
+    "answer": "He is a singer."
+  },
+  {
+    "grade": 4,
+    "question": "সে একজন নৃত্যশিল্পী।",
+    "answer": "He is a dancer."
+  },
+  {
+    "grade": 4,
+    "question": "আমরা সবাই বন্ধু।",
+    "answer": "We are all friends."
+  },
+  {
+    "grade": 4,
+    "question": "তারা একসঙ্গে খেলছে।",
+    "answer": "They are playing together."
+  },
+  {
+    "grade": 4,
+    "question": "আমার মা রান্না করছে।",
+    "answer": "My mother is cooking."
+  },
+  {
+    "grade": 4,
+    "question": "আমার বাবা অফিসে গেছে।",
+    "answer": "My father has gone to the office."
+  },
+  {
+    "grade": 4,
+    "question": "সে সাত বছরের।",
+    "answer": "He is seven years old."
+  },
+  {
+    "grade": 4,
+    "question": "এটি একটি বড় গাছ।",
+    "answer": "This is a big tree."
+  },
+  {
+    "grade": 4,
+    "question": "পাখিরা গান গায়।",
+    "answer": "Birds sing songs."
+  },
+  {
+    "grade": 4,
+    "question": "আমরা পাখা দিচ্ছি।",
+    "answer": "We are fanning."
+  },
+  {
+    "grade": 4,
+    "question": "তারা খেলা দেখছে।",
+    "answer": "They are watching the game."
+  },
+  {
+    "grade": 4,
+    "question": "এটি একটি লাল ফুল।",
+    "answer": "This is a red flower."
+  },
+  {
+    "grade": 4,
+    "question": "এসো।",
+    "answer": "Come."
+  },
+  {
+    "grade": 4,
+    "question": "বসে যাও।",
+    "answer": "Sit down."
+  },
+  {
+    "grade": 4,
+    "question": "ঘুমিয়ে পড়ো।",
+    "answer": "Go to sleep."
+  },
+  {
+    "grade": 4,
+    "question": "চুপ করো।",
+    "answer": "Be quiet."
+  },
+  {
+    "grade": 4,
+    "question": "চুপ করো না।",
+    "answer": "Don't be quiet."
+  },
+  {
+    "grade": 4,
+    "question": "হাত ধো।",
+    "answer": "Wash your hands."
+  },
+  {
+    "grade": 5,
+    "question": "দরজা বন্ধ করো।",
+    "answer": "Close the door."
+  },
+  {
+    "grade": 4,
+    "question": "দরজা খুলে দাও।",
+    "answer": "Open the door."
+  },
+  {
+    "grade": 4,
+    "question": "দৌড়াও।",
+    "answer": "Run."
+  },
+  {
+    "grade": 4,
+    "question": "দৌড়িও না।",
+    "answer": "Don't run."
+  },
+  {
+    "grade": 4,
+    "question": "গান গাও।",
+    "answer": "Sing a song."
+  },
+  {
+    "grade": 4,
+    "question": "নাচো।",
+    "answer": "Dance."
+  },
+  {
+    "grade": 4,
+    "question": "বইটি পড়।",
+    "answer": "Read the book."
+  },
+  {
+    "grade": 4,
+    "question": "লেখো।",
+    "answer": "Write."
+  },
+  {
+    "grade": 4,
+    "question": "খাও।",
+    "answer": "Eat."
+  },
+  {
+    "grade": 4,
+    "question": "পড়ো।",
+    "answer": "Study."
+  },
+  {
+    "grade": 4,
+    "question": "শিখো।",
+    "answer": "Learn."
+  },
+  {
+    "grade": 4,
+    "question": "দেখো।",
+    "answer": "See."
+  },
+  {
+    "grade": 4,
+    "question": "শোন।",
+    "answer": "Listen."
+  },
+  {
+    "grade": 5,
+    "question": "বিড়াল দুধ খায়।",
+    "answer": "Cat drinks milk."
+  },
+  {
+    "grade": 5,
+    "question": "কুকুর হাঁটে।",
+    "answer": "Dog walks."
+  },
+  {
+    "grade": 5,
+    "question": "গরু ঘাস খায়।",
+    "answer": "Cow eats grass."
+  },
+  {
+    "grade": 5,
+    "question": "পাখি উড়ে।",
+    "answer": "Bird flies."
+  },
+  {
+    "grade": 5,
+    "question": "মাছ পানিতে থাকে।",
+    "answer": "Fish lives in water."
+  },
+  {
+    "grade": 5,
+    "question": "ছাগল ঘাস খায়।",
+    "answer": "Goat eats grass."
+  },
+  {
+    "grade": 5,
+    "question": "সূর্য গরম।",
+    "answer": "Sun is hot."
+  },
+  {
+    "grade": 5,
+    "question": "বইটি মজার।",
+    "answer": "The book is interesting."
+  },
+  {
+    "grade": 5,
+    "question": "স্কুল বড়।",
+    "answer": "School is big."
+  },
+  {
+    "grade": 5,
+    "question": "বৃষ্টি হচ্ছে।",
+    "answer": "It is raining."
+  },
+  {
+    "grade": 5,
+    "question": "আমি খুশি আছি।",
+    "answer": "I am happy."
+  },
+  {
+    "grade": 5,
+    "question": "মোবাইলটি লাল।",
+    "answer": "The mobile is red."
+  },
+  {
+    "grade": 5,
+    "question": "আমরা স্কুলে যাচ্ছি।",
+    "answer": "We are going to school."
+  },
+  {
+    "grade": 5,
+    "question": "তারা মাঠে খেলছে।",
+    "answer": "They are playing in the field."
+  },
+  {
+    "grade": 5,
+    "question": "সে এখন ঘুমাচ্ছে।",
+    "answer": "He is sleeping now."
+  },
+  {
+    "grade": 5,
+    "question": "তুমি ভালো আছ।",
+    "answer": "You are fine."
+  },
+  {
+    "grade": 5,
+    "question": "আমি একজন শিক্ষক।",
+    "answer": "I am a teacher."
+  },
+  {
+    "grade": 5,
+    "question": "তা�� একজন পুলিশ অফিসার।",
+    "answer": "She is a police officer."
+  },
+  {
+    "grade": 5,
+    "question": "তারা বন্ধু।",
+    "answer": "They are friends."
+  },
+  {
+    "grade": 5,
+    "question": "আমি পড়াশোনা করছি।",
+    "answer": "I am studying."
+  },
+  {
+    "grade": 5,
+    "question": "তুমি খাও।",
+    "answer": "You eat."
+  },
+  {
+    "grade": 5,
+    "question": "সে বই পড়ছে।",
+    "answer": "He is reading a book."
+  },
+  {
+    "grade": 5,
+    "question": "সে গান গাইছে।",
+    "answer": "She is singing."
+  },
+  {
+    "grade": 5,
+    "question": "দশজন ছাত্র আছে।",
+    "answer": "There are ten students."
+  },
+  {
+    "grade": 5,
+    "question": "পাখি উড়ছে।",
+    "answer": "Birds are flying."
+  },
+  {
+    "grade": 1,
+    "question": "চাঁদটা উজ্জ্বল।",
+    "answer": "The moon is bright."
+  },
+  {
+    "grade": 5,
+    "question": "সূর্য গরম।",
+    "answer": "The sun is hot."
+  },
+  {
+    "grade": 5,
+    "question": "তারিখ লিখে ফেল।",
+    "answer": "Write the date."
+  },
+  {
+    "grade": 5,
+    "question": "বাংলাদেশের রাজধানী কী?",
+    "answer": "What is the capital of Bangladesh?"
+  },
+  {
+    "grade": 5,
+    "question": "আজ কি রবিবার?",
+    "answer": "Is today Sunday?"
+  },
+  {
+    "grade": 5,
+    "question": "পরীক্ষা কখন?",
+    "answer": "When is the exam?"
+  },
+  {
+    "grade": 5,
+    "question": "তোমার ভাইয়ের নাম কী?",
+    "answer": "What is your brother's name?"
+  },
+  {
+    "grade": 5,
+    "question": "তোমার বাবার নাম কী?",
+    "answer": "What is your father's name?"
+  },
+  {
+    "grade": 5,
+    "question": "তোমার মায়ের নাম কী?",
+    "answer": "What is your mother's name?"
+  },
+  {
+    "grade": 5,
+    "question": "তোমার স্কুল কোথায়?",
+    "answer": "Where is your school?"
+  },
+  {
+    "grade": 5,
+    "question": "তুমি কোথায় থাকো?",
+    "answer": "Where do you stay?"
+  },
+  {
+    "grade": 5,
+    "question": "তোমার প্রিয় রঙ কোনটি?",
+    "answer": "Which is your favorite color?"
+  },
+  {
+    "grade": 5,
+    "question": "আজ কি বিকাল?",
+    "answer": "Is it afternoon now?"
+  },
+  {
+    "grade": 5,
+    "question": "তুমি কি বাংলা বলছ?",
+    "answer": "Are you speaking Bangla?"
+  },
+  {
+    "grade": 5,
+    "question": "তিনি কি আসছেন?",
+    "answer": "Is he coming?"
+  },
+  {
+    "grade": 5,
+    "question": "ওয়াও, কত সুন্দর!",
+    "answer": "Wow, how beautiful!"
+  },
+  {
+    "grade": 5,
+    "question": "কি অসাধারণ দিন!",
+    "answer": "What an amazing day!"
+  },
+  {
+    "grade": 3,
+    "question": "কি বড় সেই গাছ!",
+    "answer": "What a big tree!"
+  },
+  {
+    "grade": 5,
+    "question": "কি মিষ্টি আপেল!",
+    "answer": "What a sweet apple!"
+  },
+  {
+    "grade": 5,
+    "question": "দারুণ!",
+    "answer": "Awesome!"
+  },
+  {
+    "grade": 5,
+    "question": "কি দারুণ ব্যাপার!",
+    "answer": "What a wonderful thing!"
+  },
+  {
+    "grade": 3,
+    "question": "কি সুন্দর একটি ফুল!",
+    "answer": "What a beautiful flower!"
+  },
+  {
+    "grade": 5,
+    "question": "কি বড় ঘর!",
+    "answer": "What a big house!"
+  },
+  {
+    "grade": 5,
+    "question": "কি ভয়ঙ্কর!",
+    "answer": "How scary!"
+  },
+  {
+    "grade": 5,
+    "question": "টি খুব গরম খাবার খাচ্ছে।",
+    "answer": "He is eating hot food."
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কোথায় থাকো?",
+    "answer": "Where do you live?"
+  },
+  {
+    "grade": 3,
+    "question": "তুমি কি করছ?",
+    "answer": "What are you doing?"
+  },
+  {
+    "grade": 5,
+    "question": "হাসি মুখে কাজ করো।",
+    "answer": "Do your work with a smile."
+  },
+  {
+    "grade": 5,
+    "question": "প্রশ্ন জিজ্ঞেস করো।",
+    "answer": "Ask questions."
+  },
+  {
+    "grade": 5,
+    "question": "খেলা করো।",
+    "answer": "Play."
+  },
+  {
+    "grade": 5,
+    "question": "রাত পাঁচটা বাজছে।",
+    "answer": "It is five o'clock at night."
+  },
+  {
+    "grade": 5,
+    "question": "বাংলাদেশ বাংলা ভাষায় কথা বলে।",
+    "answer": "Bangladesh speaks in Bengali."
+  },
+  {
+    "grade": 5,
+    "question": "ইউএসএ একটি দেশ।",
+    "answer": "The USA is a country."
+  },
+  {
+    "grade": 5,
+    "question": "আপনিও কি আসছেন?",
+    "answer": "Are you coming too?"
+  },
+  {
+    "grade": 5,
+    "question": "ওই গাছটি কত উঁচু!",
+    "answer": "How tall that tree is!"
+  },
+  {
+    "grade": 5,
+    "question": "আমার নাম আমা।",
+    "answer": "My name is Ama."
+  },
+  {
+    "grade": 5,
+    "question": "সময় আটটা বাজছে।",
+    "answer": "It is eight o'clock."
+  },
+  {
+    "grade": 5,
+    "question": "চলো স্কুলে যাই।",
+    "answer": "Let's go to school!"
+  },
+  {
+    "grade": 1,
+    "question": "আকাশ নীল।",
+    "answer": "The sky is blue."
+  },
+  {
+    "grade": 1,
+    "question": "ঈদটি ভাল।",
+    "answer": "The Eid is good."
+  },
+  {
+    "grade": 1,
+    "question": "তারা খেলি।",
+    "answer": "They play."
+  },
+  {
+    "grade": 1,
+    "question": "ফুলটা মিষ্টি।",
+    "answer": "The flower is sweet."
+  },
+  {
+    "grade": 1,
+    "question": "আমি বই পড়ি।",
+    "answer": "I read a book."
+  },
+  {
+    "grade": 1,
+    "question": "এই গাছটা বড়।",
+    "answer": "This tree is big."
+  },
+  {
+    "grade": 1,
+    "question": "সে হাসে।",
+    "answer": "He laughs."
+  },
+  {
+    "grade": 1,
+    "question": "ছাতা লাল।",
+    "answer": "The umbrella is red."
+  },
+  {
+    "grade": 1,
+    "question": "অমল গানে গান গাই।",
+    "answer": "Amol sings a song."
+  },
+  {
+    "grade": 1,
+    "question": "পাখিটা উড়ে।",
+    "answer": "The bird flies."
+  },
+  {
+    "grade": 1,
+    "question": "আমি মাছ খাই।",
+    "answer": "I eat fish."
+  },
+  {
+    "grade": 1,
+    "question": "বিড়ালটি ঘুমায়।",
+    "answer": "The cat sleeps."
+  },
+  {
+    "grade": 1,
+    "question": "নদীটা ছোট।",
+    "answer": "The river is small."
+  },
+  {
+    "grade": 1,
+    "question": "ঘরটি পরিষ্কার।",
+    "answer": "The house is clean."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা খেলা করি।",
+    "answer": "We play."
+  },
+  {
+    "grade": 1,
+    "question": "সাইকেলটা সুন্দর।",
+    "answer": "The bicycle is beautiful."
+  },
+  {
+    "grade": 1,
+    "question": "বাদুড়টি উড়ছে।",
+    "answer": "The bat is flying."
+  },
+  {
+    "grade": 1,
+    "question": "ভাত সুস্বাদু।",
+    "answer": "The rice is tasty."
+  },
+  {
+    "grade": 1,
+    "question": "পাখিটা কালো।",
+    "answer": "The bird is black."
+  },
+  {
+    "grade": 1,
+    "question": "রবির ঘুম ভেঙেছে।",
+    "answer": "Robin has woken up."
+  },
+  {
+    "grade": 1,
+    "question": "মা রান্না করে।",
+    "answer": "Mother cooks."
+  },
+  {
+    "grade": 1,
+    "question": "আমি স্কুলে যাই।",
+    "answer": "I go to school."
+  },
+  {
+    "grade": 1,
+    "question": "দাঁত কাদা।",
+    "answer": "The teeth are dirty."
+  },
+  {
+    "grade": 1,
+    "question": "আমার খাতা নতুন।",
+    "answer": "My notebook is new."
+  },
+  {
+    "grade": 1,
+    "question": "ছেলেটি হাসছে।",
+    "answer": "The boy is smiling."
+  },
+  {
+    "grade": 1,
+    "question": "ছুটি বড়।",
+    "answer": "The rope is big."
+  },
+  {
+    "grade": 1,
+    "question": "মেঘ কালো।",
+    "answer": "The cloud is black."
+  },
+  {
+    "grade": 1,
+    "question": "আমর ঘুমাই।",
+    "answer": "We sleep."
+  },
+  {
+    "grade": 1,
+    "question": "পুকুরটা নীল।",
+    "answer": "The pond is blue."
+  },
+  {
+    "grade": 1,
+    "question": "ভালবসে মা।",
+    "answer": "He loves mother."
+  },
+  {
+    "grade": 1,
+    "question": "বন্ধুটি দৌড়ায়।",
+    "answer": "The friend runs."
+  },
+  {
+    "grade": 1,
+    "question": "পৃথিবী সুন্দর।",
+    "answer": "The Earth is beautiful."
+  },
+  {
+    "grade": 1,
+    "question": "কলমটি টেবিলে আছে।",
+    "answer": "The pen is on the table."
+  },
+  {
+    "grade": 1,
+    "question": "আকাশ পরিষ্কার।",
+    "answer": "The sky is clear."
+  },
+  {
+    "grade": 1,
+    "question": "শিশুটি হাসছে।",
+    "answer": "The child is smiling."
+  },
+  {
+    "grade": 1,
+    "question": "ভাত আমার পছন্দ।",
+    "answer": "I like rice."
+  },
+  {
+    "grade": 1,
+    "question": "গাড়ি বড়।",
+    "answer": "The car is big."
+  },
+  {
+    "grade": 1,
+    "question": "ছেলেটি কথা বলে।",
+    "answer": "The boy speaks."
+  },
+  {
+    "grade": 1,
+    "question": "সে পানি খায়।",
+    "answer": "She drinks water."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা খেলতে যাই।",
+    "answer": "We go to play."
+  },
+  {
+    "grade": 1,
+    "question": "গাছটা সবুজ।",
+    "answer": "The tree is green."
+  },
+  {
+    "grade": 1,
+    "question": "পাখিটি লাল।",
+    "answer": "The bird is red."
+  },
+  {
+    "grade": 1,
+    "question": "খাবার টেবিলে।",
+    "answer": "Food is on the table."
+  },
+  {
+    "grade": 1,
+    "question": "ছাতা নীল।",
+    "answer": "The umbrella is blue."
+  },
+  {
+    "grade": 1,
+    "question": "কুকুরটা ঘুমায়।",
+    "answer": "The dog sleeps."
+  },
+  {
+    "grade": 1,
+    "question": "আম গাছে আছে।",
+    "answer": "There is a mango tree."
+  },
+  {
+    "grade": 1,
+    "question": "ঘরটাকা বড়।",
+    "answer": "That house is big."
+  },
+  {
+    "grade": 1,
+    "question": "আশি সাঁতার কাটছি।",
+    "answer": "I am swimming."
+  },
+  {
+    "grade": 1,
+    "question": "সন্ধ্যা হয়েছে।",
+    "answer": "It is evening."
+  },
+  {
+    "grade": 1,
+    "question": "খাতা খোলা।",
+    "answer": "The notebook is open."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা বই পড়ি।",
+    "answer": "We read books."
+  },
+  {
+    "grade": 1,
+    "question": "দাঁত সাদা।",
+    "answer": "The teeth are white."
+  },
+  {
+    "grade": 1,
+    "question": "ছাত্রী গান গায়।",
+    "answer": "The female student sings."
+  },
+  {
+    "grade": 1,
+    "question": "মাছটা সাদা।",
+    "answer": "The fish is white."
+  },
+  {
+    "grade": 1,
+    "question": "আমি ঘরে আছি।",
+    "answer": "I am at home."
+  },
+  {
+    "grade": 2,
+    "question": "তোমার নাম কী?",
+    "answer": "What is your name?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কি স্কুলে যাও?",
+    "answer": "Do you go to school?"
+  },
+  {
+    "grade": 2,
+    "question": "সে কি ছাত্র?",
+    "answer": "Is he a student?"
+  },
+  {
+    "grade": 2,
+    "question": "এইটি কী?",
+    "answer": "What is this?"
+  },
+  {
+    "grade": 2,
+    "question": "পাখিটি কোথায়?",
+    "answer": "Where is the bird?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কেমন আছো?",
+    "answer": "How are you?"
+  },
+  {
+    "grade": 2,
+    "question": "বইটি আমার?",
+    "answer": "Is the book mine?"
+  },
+  {
+    "grade": 2,
+    "question": "আকাশ নীল কি?",
+    "answer": "Is the sky blue?"
+  },
+  {
+    "grade": 2,
+    "question": "খাবার সুস্বাদু কি?",
+    "answer": "Is the food delicious?"
+  },
+  {
+    "grade": 2,
+    "question": "আমাদের দেশ কোথায়?",
+    "answer": "Where is our country?"
+  },
+  {
+    "grade": 2,
+    "question": "তার নাম কী?",
+    "answer": "What is his name?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কত বড়?",
+    "answer": "How old are you?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কি গান গাও?",
+    "answer": "Do you sing songs?"
+  },
+  {
+    "grade": 2,
+    "question": "এইটা তোমার বই?",
+    "answer": "Is this your book?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কী ফুল ভালোবাস?",
+    "answer": "Do you like flowers?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কি ভালো ছাত্র?",
+    "answer": "Are you a good student?"
+  },
+  {
+    "grade": 2,
+    "question": "ঈদ কেন আসে?",
+    "answer": "Why does Eid come?"
+  },
+  {
+    "grade": 2,
+    "question": "মাছ কি ভাত খায়?",
+    "answer": "Do fish eat rice?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কী খেলতে পারো?",
+    "answer": "Can you play?"
+  },
+  {
+    "grade": 3,
+    "question": "কি সুস্বাদু খাবার!",
+    "answer": "What delicious food!"
+  },
+  {
+    "grade": 3,
+    "question": "কি মিষ্টি আম!",
+    "answer": "What a sweet mango!"
+  },
+  {
+    "grade": 3,
+    "question": "কি সুন্দর আকাশ!",
+    "answer": "What a beautiful sky!"
+  },
+  {
+    "grade": 3,
+    "question": "কি দারুণ খেলাধুলা!",
+    "answer": "What a great game!"
+  },
+  {
+    "grade": 3,
+    "question": "হায়! আমি ভুলে গেছি!",
+    "answer": "Oh no! I have forgotten!"
+  },
+  {
+    "grade": 3,
+    "question": "অসাধারণ!",
+    "answer": "Excellent!"
+  },
+  {
+    "grade": 3,
+    "question": "পাখিটি গান গাইছে।",
+    "answer": "The bird is singing."
+  },
+  {
+    "grade": 3,
+    "question": "নীল আকাশ উজ্জ্বল।",
+    "answer": "The blue sky is bright."
+  },
+  {
+    "grade": 3,
+    "question": "লেখাটি বড়।",
+    "answer": "The line is big."
+  },
+  {
+    "grade": 3,
+    "question": "ঈদ আনন্দময়!",
+    "answer": "Eid is joyful!"
+  },
+  {
+    "grade": 3,
+    "question": "মা খুব ভালবাসে!",
+    "answer": "Mother loves (me) so much!"
+  },
+  {
+    "grade": 3,
+    "question": "শিক্ষক কথা বলছেন।",
+    "answer": "The teacher is speaking."
+  },
+  {
+    "grade": 3,
+    "question": "এই ফুলের রঙ লাল।",
+    "answer": "The color of this flower is red."
+  },
+  {
+    "grade": 3,
+    "question": "পাখিটি উঁচুতে উড়ে।",
+    "answer": "The bird is flying high."
+  },
+  {
+    "grade": 3,
+    "question": "কি রহমতপূর্ণ দিন!",
+    "answer": "What a merciful day!"
+  },
+  {
+    "grade": 3,
+    "question": "সবাই বই পড়ছে।",
+    "answer": "Everyone is reading books."
+  },
+  {
+    "grade": 3,
+    "question": "বৃক্ষটি গাছ হয়ে গিয়েছে।",
+    "answer": "The tree has grown tall."
+  },
+  {
+    "grade": 4,
+    "question": "এসো এখানে।",
+    "answer": "Come here."
+  },
+  {
+    "grade": 4,
+    "question": "বসো এখানে।",
+    "answer": "Sit here."
+  },
+  {
+    "grade": 4,
+    "question": "উঠো।",
+    "answer": "Stand up."
+  },
+  {
+    "grade": 4,
+    "question": "জল খাও।",
+    "answer": "Drink water."
+  },
+  {
+    "grade": 4,
+    "question": "গাছ লাগাও।",
+    "answer": "Plant a tree."
+  },
+  {
+    "grade": 4,
+    "question": "উত্তর দাও।",
+    "answer": "Answer."
+  },
+  {
+    "grade": 4,
+    "question": "তুমি কে?",
+    "answer": "Who are you?"
+  },
+  {
+    "grade": 4,
+    "question": "এটা কি তোমার?",
+    "answer": "Is this yours?"
+  },
+  {
+    "grade": 4,
+    "question": "দেখাটা সুন্দর।",
+    "answer": "It looks beautiful."
+  },
+  {
+    "grade": 4,
+    "question": "এখানে বসে ভালো।",
+    "answer": "Sitting here is good."
+  },
+  {
+    "grade": 4,
+    "question": "পাখিটি উড়ে যাচ্ছে।",
+    "answer": "The bird is flying away."
+  },
+  {
+    "grade": 4,
+    "question": "চাঁদ আলো দেয়।",
+    "answer": "The moon gives light."
+  },
+  {
+    "grade": 4,
+    "question": "দুই + দুই চার।",
+    "answer": "Two plus two is four."
+  },
+  {
+    "grade": 4,
+    "question": "তুমি ভালো করতে হবে।",
+    "answer": "You must do well."
+  },
+  {
+    "grade": 4,
+    "question": "তুমি বইটি আগে পড়ো।",
+    "answer": "You read the book first."
+  },
+  {
+    "grade": 4,
+    "question": "শিক্ষক ভালো মানুষ।",
+    "answer": "The teacher is a good person."
+  },
+  {
+    "grade": 4,
+    "question": "এই গান শুনে হাসো।",
+    "answer": "Listen to this song and smile."
+  },
+  {
+    "grade": 5,
+    "question": "দয়া করে বইটি পাঠ কর।",
+    "answer": "Please read the book."
+  },
+  {
+    "grade": 5,
+    "question": "লেখার চেষ্টা কর।",
+    "answer": "Try to write."
+  },
+  {
+    "grade": 5,
+    "question": "পাঠ শেষ করো।",
+    "answer": "Finish the lesson."
+  },
+  {
+    "grade": 5,
+    "question": "গীতায় গান গাও।",
+    "answer": "Sing a song in the song."
+  },
+  {
+    "grade": 5,
+    "question": "সতর্ক হও।",
+    "answer": "Be careful."
+  },
+  {
+    "grade": 5,
+    "question": "নিভৃতে কথা বল।",
+    "answer": "Speak quietly."
+  },
+  {
+    "grade": 5,
+    "question": "সব সময় সৎ হও।",
+    "answer": "Always be honest."
+  },
+  {
+    "grade": 5,
+    "question": "ঘুম থেকে ওঠো।",
+    "answer": "Get up from sleep."
+  },
+  {
+    "grade": 5,
+    "question": "পড়া শেষ করো।",
+    "answer": "Finish reading."
+  },
+  {
+    "grade": 5,
+    "question": "তুমি কি এসেছি?",
+    "answer": "Have you come?"
+  },
+  {
+    "grade": 5,
+    "question": "ওরা বই পড়ছে।",
+    "answer": "They are reading books."
+  },
+  {
+    "grade": 5,
+    "question": "প্রকৃতিতে শান্তি রয়েছে।",
+    "answer": "There is peace in nature."
+  },
+  {
+    "grade": 5,
+    "question": "পরিবেশ রক্ষা করো।",
+    "answer": "Protect the environment."
+  },
+  {
+    "grade": 5,
+    "question": "বৃক্ষ থাকলে প্রান বাঁচে।",
+    "answer": "If trees exist, life thrives."
+  },
+  {
+    "grade": 5,
+    "question": "নদীটির জল পরিষ্কার।",
+    "answer": "The river's water is clean."
+  },
+  {
+    "grade": 5,
+    "question": "দিদির প্রতি ভালবাসা থাকা উচিত।",
+    "answer": "One should have love for one's sister."
+  },
+  {
+    "grade": 5,
+    "question": "পাখিরা গান গায়।",
+    "answer": "The birds sing songs."
+  },
+  {
+    "grade": 5,
+    "question": "পাহাড় উচু।",
+    "answer": "The mountain is tall."
+  },
+  {
+    "grade": 5,
+    "question": "তুমি আমাকে সাহায্য করেছ।",
+    "answer": "You have helped me."
+  },
+  {
+    "grade": 5,
+    "question": "ওরা মাঠে দৌড়াচ্ছে।",
+    "answer": "They are running in the field."
+  },
+  {
+    "grade": 5,
+    "question": "বৃষ্টি শুরু হয়েছে।",
+    "answer": "It has started raining."
+  },
+  {
+    "grade": 5,
+    "question": "সে বই পড়তে ভালোবাসে।",
+    "answer": "He loves to read books."
+  },
+  {
+    "grade": 5,
+    "question": "আমরা বাংলায় কথা বলি।",
+    "answer": "We speak in Bengali."
+  },
+  {
+    "grade": 5,
+    "question": "তুমি কি আবেগপ্রবণ?",
+    "answer": "Are you emotional?"
+  },
+  {
+    "grade": 1,
+    "question": "আমি ভাত খাই।",
+    "answer": "I eat rice."
+  },
+  {
+    "grade": 1,
+    "question": "তুমি স্কুলে যাও।",
+    "answer": "You go to school."
+  },
+  {
+    "grade": 1,
+    "question": "সে বাজারে যাচ্ছে।",
+    "answer": "He is going to the market."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা মজা করছি।",
+    "answer": "We are having fun."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা বই পড়ছি।",
+    "answer": "We are reading the book."
+  },
+  {
+    "grade": 1,
+    "question": "তারা ফুটবল খেলে।",
+    "answer": "They play football."
+  },
+  {
+    "grade": 1,
+    "question": "বৃক্ষটা লম্বা।",
+    "answer": "The tree is tall."
+  },
+  {
+    "grade": 1,
+    "question": "বইটি টেবিলে আছে।",
+    "answer": "The book is on the table."
+  },
+  {
+    "grade": 1,
+    "question": "আমার কাছে তিনটি কলম আছে।",
+    "answer": "I have three pens."
+  },
+  {
+    "grade": 1,
+    "question": "তাদের সাথে সবাই আছে।",
+    "answer": "Everyone is with them."
+  },
+  {
+    "grade": 1,
+    "question": "আজকে অনেক পড়াশোনা করেছি।",
+    "answer": "I have studied a lot today."
+  },
+  {
+    "grade": 1,
+    "question": "তারা সবাই মিলে খাবার খায়।",
+    "answer": "They all eat food together."
+  },
+  {
+    "grade": 1,
+    "question": "তিনি দুধ পান করছেন।",
+    "answer": "He is drinking milk."
+  },
+  {
+    "grade": 1,
+    "question": "সূর্য পূর্ব দিগন্ত থেকে উদিত হয়।",
+    "answer": "The sun rises from the east."
+  },
+  {
+    "grade": 1,
+    "question": "পাখি উড়ছে।",
+    "answer": "The bird is flying."
+  },
+  {
+    "grade": 1,
+    "question": "সূর্য উজ্জ্বল।",
+    "answer": "The sun is bright."
+  },
+  {
+    "grade": 1,
+    "question": "আগুন গরম।",
+    "answer": "The fire is hot."
+  },
+  {
+    "grade": 1,
+    "question": "তারা উজ্জ্বল।",
+    "answer": "The stars are bright."
+  },
+  {
+    "grade": 1,
+    "question": "আলোর বাটি কালো।",
+    "answer": "The lamp is black."
+  },
+  {
+    "grade": 1,
+    "question": "গাছ লাল পাতা।",
+    "answer": "The tree has red leaves."
+  },
+  {
+    "grade": 1,
+    "question": "নীল আকাশে মেঘ দেখা যায়।",
+    "answer": "Clouds are seen in the blue sky."
+  },
+  {
+    "grade": 1,
+    "question": "আমি বই পড়ছি।",
+    "answer": "I am reading a book."
+  },
+  {
+    "grade": 4,
+    "question": "সে ঘুমিয়েছে।",
+    "answer": "He has slept."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা হাসছি।",
+    "answer": "We are laughing."
+  },
+  {
+    "grade": 2,
+    "question": "আমার নাম ফয়সাল।",
+    "answer": "My name is Faysal."
+  },
+  {
+    "grade": 3,
+    "question": "আজ আবহাওয়া কেমন?",
+    "answer": "How is the weather today?"
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কি খেতে চাও?",
+    "answer": "Do you want to eat?"
+  },
+  {
+    "grade": 1,
+    "question": "আমার বোন বড়।",
+    "answer": "My sister is elder."
+  },
+  {
+    "grade": 2,
+    "question": "সে কোথায় যাচ্ছে?",
+    "answer": "Where is he going?"
+  },
+  {
+    "grade": 3,
+    "question": "আমরা বন্ধু।",
+    "answer": "We are friends."
+  },
+  {
+    "grade": 4,
+    "question": "তুমি কি খেলছ?",
+    "answer": "Are you playing?"
+  },
+  {
+    "grade": 1,
+    "question": "সে কি গান শুনছে?",
+    "answer": "Is she listening to music?"
+  },
+  {
+    "grade": 2,
+    "question": "আমি পানি খাচ্ছি।",
+    "answer": "I am drinking water."
+  },
+  {
+    "grade": 3,
+    "question": "তুমি কি খেলনা চাও?",
+    "answer": "Do you want a toy?"
+  },
+  {
+    "grade": 4,
+    "question": "আজ রবিবার।",
+    "answer": "Today is Sunday."
+  },
+  {
+    "grade": 5,
+    "question": "আমি ছবি আঁকছি।",
+    "answer": "I am drawing a picture."
+  },
+  {
+    "grade": 1,
+    "question": "তুমি কি ঘুমাচ্ছো?",
+    "answer": "Are you sleeping?"
+  },
+  {
+    "grade": 3,
+    "question": "আমার বাবার নাম আজিজ।",
+    "answer": "My father's name is Aziz."
+  },
+  {
+    "grade": 4,
+    "question": "আমি সাইকেল চালাচ্ছি।",
+    "answer": "I am riding a bicycle."
+  },
+  {
+    "grade": 5,
+    "question": "তুমি কি গান গাইছ?",
+    "answer": "Are you singing?"
+  },
+  {
+    "grade": 1,
+    "question": "ছেলে নাচছে।",
+    "answer": "The boy is dancing."
+  },
+  {
+    "grade": 1,
+    "question": "গান চলছে।",
+    "answer": "The music is playing."
+  },
+  {
+    "grade": 1,
+    "question": "ভাল লাগছে।",
+    "answer": "It feels good."
+  },
+  {
+    "grade": 1,
+    "question": "তারা গান শুনছে।",
+    "answer": "They are listening to a song."
+  },
+  {
+    "grade": 1,
+    "question": "আমি হাঁটছি।",
+    "answer": "I am walking."
+  },
+  {
+    "grade": 1,
+    "question": "আমার দুটি হাত আছে।",
+    "answer": "I have two hands."
+  },
+  {
+    "grade": 1,
+    "question": "আমার দুটি পা আছে।",
+    "answer": "I have two legs."
+  },
+  {
+    "grade": 1,
+    "question": "আমার তিন ভাই আছে।",
+    "answer": "I have three brothers."
+  },
+  {
+    "grade": 1,
+    "question": "আমার চার বোন আছে।",
+    "answer": "I have four sisters."
+  },
+  {
+    "grade": 1,
+    "question": "আমার তিনটি আপেল আছে।",
+    "answer": "I have three apples."
+  },
+  {
+    "grade": 1,
+    "question": "আমার পাঁচটি বই আছে।",
+    "answer": "I have five books."
+  },
+  {
+    "grade": 1,
+    "question": "আমার ছয়টা ফল আছে।",
+    "answer": "I have six fruits."
+  },
+  {
+    "grade": 1,
+    "question": "আমার সাতটি টিফিন আছে।",
+    "answer": "I have seven lunch boxes."
+  },
+  {
+    "grade": 1,
+    "question": "আমার আটটা চার্তা আছে।",
+    "answer": "I have eight stamps."
+  },
+  {
+    "grade": 1,
+    "question": "আমার নয়টা ছবি আছে।",
+    "answer": "I have nine pictures."
+  },
+  {
+    "grade": 1,
+    "question": "আমার দশটা কলম আছে।",
+    "answer": "I have ten pens."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বয়স পাঁচ বছর।",
+    "answer": "I am five years old."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বয়স ছয় বছর।",
+    "answer": "I am six years old."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বয়স সাত বছর।",
+    "answer": "I am seven years old."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বয়স আট বছর।",
+    "answer": "I am eight years old."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বয়স নয় বছর।",
+    "answer": "I am nine years old."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বয়স দশ বছর।",
+    "answer": "I am ten years old."
+  },
+  {
+    "grade": 1,
+    "question": "আমার দুটি কান আছে।",
+    "answer": "I have two ears."
+  },
+  {
+    "grade": 1,
+    "question": "আমার দুটি চোখ আছে।",
+    "answer": "I have two eyes."
+  },
+  {
+    "grade": 1,
+    "question": "আমার একটি বই আছে।",
+    "answer": "I have a book."
+  },
+  {
+    "grade": 1,
+    "question": "আমার একটি কলম আছে।",
+    "answer": "I have a pen."
+  },
+  {
+    "grade": 1,
+    "question": "আমার একটি টিফিন বক্স আছে।",
+    "answer": "I have a lunch box."
+  },
+  {
+    "grade": 1,
+    "question": "আমার একটি স্কুল আছে।",
+    "answer": "I have a school."
+  },
+  {
+    "grade": 1,
+    "question": "আমার একটি বাড়ি আছে।",
+    "answer": "I have a house."
+  },
+  {
+    "grade": 1,
+    "question": "আমি ছাত্র।",
+    "answer": "I am a student."
+  },
+  {
+    "grade": 1,
+    "question": "সে শিক্ষক।",
+    "answer": "He is a teacher."
+  },
+  {
+    "grade": 1,
+    "question": "সে একজন ইঞ্জিনিয়ার।",
+    "answer": "He is an engineer."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি বই।",
+    "answer": "This is a book."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি কলম।",
+    "answer": "This is a pen."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি টেবিল।",
+    "answer": "This is a table."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি চেয়ার।",
+    "answer": "This is a chair."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি ঘড়ি।",
+    "answer": "This is a clock."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি ছবি।",
+    "answer": "This is a picture."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি গাছ।",
+    "answer": "This is a tree."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি ফুল।",
+    "answer": "This is a flower."
+  },
+  {
+    "grade": 1,
+    "question": "এটি একটি কালমি।",
+    "answer": "This is a pencil."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা ক্লান্ত।",
+    "answer": "We are tired."
+  },
+  {
+    "grade": 1,
+    "question": "তোমরা খুশি।",
+    "answer": "You are happy."
+  },
+  {
+    "grade": 1,
+    "question": "তারা দুষ্টু।",
+    "answer": "They are naughty."
+  },
+  {
+    "grade": 1,
+    "question": "তুমি কর্মঠ।",
+    "answer": "You are hardworking."
+  },
+  {
+    "grade": 1,
+    "question": "আমি ভাল আছি।",
+    "answer": "I am fine."
+  },
+  {
+    "grade": 1,
+    "question": "সে ভালো আছে।",
+    "answer": "He is fine."
+  },
+  {
+    "grade": 1,
+    "question": "তারা শান্ত।",
+    "answer": "They are calm."
+  },
+  {
+    "grade": 1,
+    "question": "আমরা সুখী।",
+    "answer": "We are happy."
+  },
+  {
+    "grade": 1,
+    "question": "চা গরম।",
+    "answer": "The tea is hot."
+  },
+  {
+    "grade": 1,
+    "question": "বাতাস ঠান্ডা।",
+    "answer": "The air is cold."
+  },
+  {
+    "grade": 1,
+    "question": "নদী পরিষ্কার।",
+    "answer": "The river is clean."
+  },
+  {
+    "grade": 1,
+    "question": "সন্ধ্যা গাঢ় হয়।",
+    "answer": "Evening gets dark."
+  },
+  {
+    "grade": 1,
+    "question": "বিস্কুট মিষ্টি।",
+    "answer": "The biscuit is sweet."
+  },
+  {
+    "grade": 1,
+    "question": "দুধ সাদা।",
+    "answer": "Milk is white."
+  },
+  {
+    "grade": 1,
+    "question": "খাবার সুস্বাদু।",
+    "answer": "The food is tasty."
+  },
+  {
+    "grade": 1,
+    "question": "খেলা মজার।",
+    "answer": "Playing is fun."
+  },
+  {
+    "grade": 1,
+    "question": "ঘুম শান্ত।",
+    "answer": "Sleeping is peaceful."
+  },
+  {
+    "grade": 1,
+    "question": "পাঠ সহজ।",
+    "answer": "The lesson is easy."
+  },
+  {
+    "grade": 1,
+    "question": "আমার পরিবার বড়।",
+    "answer": "My family is big."
+  },
+  {
+    "grade": 1,
+    "question": "আমার ভাইয়ের বয়স সাত বছর।",
+    "answer": "My brother is seven years old."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বোন রঙিন।",
+    "answer": "My sister is colorful."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বাড়িতে অনেক মানুষ আছে।",
+    "answer": "There are many people in my house."
+  },
+  {
+    "grade": 1,
+    "question": "আমার বন্ধুরা স্কুলে যায়।",
+    "answer": "My friends go to school."
+  },
+  {
+    "grade": 1,
+    "question": "আমার একটি কালো কলম আছে।",
+    "answer": "I have a black pen."
+  },
+  {
+    "grade": 1,
+    "question": "আমার একটি লাল বই আছে।",
+    "answer": "I have a red book."
+  },
+  {
+    "grade": 1,
+    "question": "বিড়ালটি কালো।",
+    "answer": "The cat is black."
+  },
+  {
+    "grade": 1,
+    "question": "কুকুরটি সাদা।",
+    "answer": "The dog is white."
+  },
+  {
+    "grade": 1,
+    "question": "রান্নাটি সুগন্ধি।",
+    "answer": "The food is aromatic."
+  },
+  {
+    "grade": 1,
+    "question": "পাখিটা গাঢ় নীল।",
+    "answer": "The bird is deep blue."
+  },
+  {
+    "grade": 1,
+    "question": "আমার কালো ছাতা আছে।",
+    "answer": "I have a black umbrella."
+  },
+  {
+    "grade": 1,
+    "question": "আজ রাতে চাঁদ উজ্জ্বল।",
+    "answer": "The moon is bright tonight."
+  },
+  {
+    "grade": 2,
+    "question": "তুমি কি স্কুলে যাচ্ছ?",
+    "answer": "Are you going to school?"
+  }
+]

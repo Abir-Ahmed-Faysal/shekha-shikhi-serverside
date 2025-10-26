@@ -10,8 +10,4 @@ router.route('/grades').get(getAllGrades).post(postGrade)
 
 router.get('/grades/:grade', getGradeByValue)
 
-
-
-
-
 export default router

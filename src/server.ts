@@ -6,5 +6,5 @@ connectDB();
 
 app.listen(config.PORT, () => {
   
-  console.log(`Mini Todo is running on port ${config.PORT}`);
+  console.log(`shekha-shikhi is running on port ${config.PORT}`);
 });
